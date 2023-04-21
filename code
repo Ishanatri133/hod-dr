@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishan Sharma</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="dr.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+        <a href="#EducationalQualification" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">EDUCATIONAL QUALIFICATION</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="imgkurta.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.instagram.com/ishan.atri133/" target="_blank">
+             <i data-feather="instagram"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://twitter.com/ishan_atri133" target="_blank">
+             <i data-feather="twitter"></i>
+          </a>
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/ishan-sharma-8357731a0/" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+      </section>
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+          <a href="#Educational Qualification" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">EDUCATIONAL QUALIFICATION</a>
+
+
+
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;">"You can overcome anything, if and if only you love something enough."</p>
+            <h1>Ishan Sharma </h2>
+            <p></p>
+          </div>
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              
+            
+            </p>Technology driven research professional with 22 years of experience in variety of domains
+            in computer science like machine learning, artificial engineering, data science, sensor
+            networks and much more. Did all the planning for getting CSE Department of BPIT NBA
+            Accredited (completed 3 cycles) in the capacity of HOD CSE Department as well as
+            well-versed with NAAC criteria’s. Was selected as Margdarshak by AICTE for NBA
+            accreditation. Single handedly done all the infrastructural planning as well established all the labs
+            for B.Tech at VIPS-TC in the capacity of Head of B.Tech Programmes. Workked as NAAC
+            coordinator for B.Tech Programmes at VIPS-TC. Innovation portfolio of multiple
+            international publications of more than 110 publications with a google citation count of 2489
+            H index 20 and 15 PATENTS (7 granted &amp; 8 Published). Extensive experience in
+            coordinating technical events hosted by IIT Mumbai, IIT Delhi, IIT Kharagpur, AICTE.
+            Experienced in syllabus formulation for B.Tech courses in GGSIPU. Recognized PhD
+            supervisor of Guru Gobind Singh Indraprastha University, Delhi. 6 candidates have been
+            awarded PhD and Presently guiding 4 PhD scholars registered with different universities
+            like GGSIPU, UPTU, Galgotias University etc. Organized and chaired multiple
+            international conferences and active member of many technical bodies like IEEE, CSI,
+            and IETE etc. Organized more than 50 FDP’S for the faculty members as per the
+            technological demands. Organized many trainings for the students to map up the academia-
+            industry needs.
+            
+        
+          </div>
+
+          <!--RESUME-->
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+
+              <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+                <h3 class="w3-border-amber">EDUCATIONAL QUALIFICATION</h3> <br>
+                  <h5>Ph.D in Computer Science (2013), Delhi University <h5>
+                  <h5>M.Tech – IT – GGSIPT (2005) <h5>
+                  <h5>B.Tech Computer Science– M.D.U (2001)</h5> <br>
+              </div>
+              
+
+
+              <h3 class="w3-border-amber" >MY EMPLOYMENT HISTORY</h3> <br>
+              <div class="">
+                <h4>Professor and HOD of B.Tech Programmes  </h4> 
+                <h5>Vivekananda Institute of Professional Studies – Technical Campus</h5>
+                <p>Aug 2021 - Present </p> <br>
+                <ul class="w3-ul" style="font-weight: 500;">
+
+
+              <div class="">
+                <h4>Head of Department & Professor CSE Department</h4>
+                <h5>Bhagwan Parshuram Institute of Technology</h5>
+
+                <p>Aug-2002 to Aug-2009 </p> <br>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  
+
+                </ul>
+              </div>
+
+              <div class="">
+                <h4>Assistant Professor & HOD  IT Department</h4>
+                <h5>GPMCE – GGSIPU</h5>
+                <p>Aug-2002 to Aug-2009 </p> <br>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  
+                
+                </ul>
+              </div>
+                  
+              <div class="">
+                
+                <h4>Lecturer CSE</h4>
+                <h5>Hindu College</h5>
+                <p>Jul-2001 to Jul-2002</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                 
+              
+              
+              
+            </div>
+            <!---Cources-->
+            <div class="w3-container w3-margin-top-2 w3-large">
+              <h4 class="w3-border-amber">AREAS OF INTERESTS</h4> <br>
+              <h5>Machine Learning</h5>
+              <h5>Data Science</h5>
+              <h5>Knowledge Discovery</h5>
+              <h5>Information Retrieval</h5>
+              <h5>Sentiment Analysis</h5>
+              <h5>Opinion Mining</h5>
+              <h5>Sensor networks</h5>
+          </a>
+              
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">Co-curricular/Extracurricular activity organized</h3> <br>
+              <!--SOFT SKILLS-->
+              <ul class="w3-ul" style="font-weight: 500;">
+                <li>Setup of all labs and classrooms at VIPS TC</li>
+                <li>Member of Syllabus draft committee for AI-DS, AI-ML, IIOT</li>
+                <li>Head of Technical Committee for BPIT college fest.</li>
+                <li>Remote Center Coordinator IIT Bombay, IIT Kanpur at BPIT</li>
+                <li>Remote Center Coordinator IIT Bombay, IIT Kanpur at VSE&T</li>
+                <li>Nodal Center In charge of Spoken Tutorial labs, IIT Bombay at BPIT & VSE&T</li>
+                <li>Nodal Center Officer of Virtual Labs, IIT Delhi at BPIT</li>
+                <li>Inter College Project Coordinator of GGSIPU for CSE branch</li>
+                <li>IOSD (International Organization Software Development) Faculty In charge</li>
+                <li>CSI Student Branch Counselor at BPIT</li>
+                <li>IEEE Student Branch Counselor at BPIT</li>
+                <li>Organized many more than 20 FDP’s / 85 Workshops/ 100 Seminars at department Level as the Head of Department of CSE.</li>
+                <li>Coordinator of FOSS Cell in association with International Centre for Free and Open Source Software (ICFOSS), Government of Kerala. First FOSS Cell in Delhi.</li> <br>
+               
+
+
+              </ul>
+              <!--TECHNICAL SKILLS-->
+              <h4>Technical skills</h4>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Front end Web Development</li>
+                  <li>UX design</li>
+                  <li>Graphic designing</li>
+                  <li>Coding knowledge about Python,Rstudio, Java, C etc</li>
+                </ul>
+            </div>
+
+            <!--INTERESTS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">MY HOBBIES AND INTERESTS</h3>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  <li>Football</li>
+                  <li>Reading about History</li>
+                </ul>
+            </div>
+
+            
+
+          <!--CONTACT SECTION-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Ishan Sharma</p>
+              
+              <p>E-mail: ishan.atri.133@gmail.com</p>
+            </div>
+          </div>
+
+        
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+  </body>
+</html>
+
+css
+/*General*/
+body * {
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: bold;
+  }
+  
+  ul li {
+    border: none !important;
+  }
+  
+  /*Containers*/
+  
+  .image-section {
+    height: 100vh;
+    -moz-text-align: center; /*works on Firefox */
+    -webkit-text-align: center; /*works on Safari and Google Chrome*/
+    text-align: center;
+    background-color: #262626;
+    -moz-padding: 20px; /*works on Firefox */
+    -webkit-padding: 20px; /*works on Safari and Google Chrome*/
+    padding: 20px;
+  }
+  
+  .image-section img {
+    max-width: 60%;
+    max-height: 60%;
+    margin-top: 50px !important;
+    object-fit: cover;
+  }
+  
+  .links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .links a {
+    flex: 0 0 10%;
+  }
+  
+  .icon-link {
+    text-decoration: none;
+    font-size: 48px auto;
+    padding: 26px;
+  }
+  
+  .content-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  .home {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .home p {
+    font-weight: bold;
+  }
+  
+  .home h1 {
+    font-size: 64px;
+  }
+  
+  .html {
+    width: 90%;
+    background-color: #04aa6d;
+  }
+  
+  .w3-ul li {
+    padding: 8px 0px;
+  }
+  
+  /*Utilities*/
+  
+  .w3-margin-top-2 {
+    margin-top: 32px;
+  }
+  
+  .w3-margin-top-4 {
+    margin-top: 64px;
+  }
+  
+  .w3-margin-top-20-percent {
+    margin-top: 20%;
+  }
+  
+  .w3-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  }
+  
+  .w3-fixed {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+  }
+  
+  /*Media queries*/
+  @media screen and (max-width: 1200px) {
+    .home {
+      width: 90%;
+    }
+    .content-container {
+      width: 80% !important;
+    }
+  
+    .download-text {
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width: 992px) {
+    .home {
+      width: 100%;
+    }
+    .home h1 {
+      font-size: 48px;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .content-container {
+      width: 100% !important;
+    }
+  
+    .image-section {
+      -moz-padding: 10px; /*works on Firefox */
+      -webkit-padding: 10px; /*works on Safari and Google Chrome*/
+      padding: 10px;
+    }
+  
+    .links a {
+      flex: 0 0 5% !important;
+    }
+  
+    .home {
+      text-align: center;
+      width: 100%;
+    }
+  
+    .home p {
+      font-size: medium !important;
+    }
+  
+    .home h1 {
+      font-size: 32px;
+    }
+    .home h2 {
+      font-size: 24px;
+    }
+  
+    .w3-fixed {
+      position: inherit;
+    }
+  
+    .image-section {
+      height: auto;
+    }
+  
+    .image-section img {
+      max-width: 80%;
+      max-height: 80%;
+    }
+  
+    .icon-link {
+      font-size: 24px;
+    }
+  
+    .w3-container,
+    .w3-panel {
+      padding: 0.01em;
+    }
+  
+    .download-text {
+      display: inline-block;
+    }
+  }
+
+  p.small {
+    line-height: 0.7;
+  }
+  
+  p.big {
+    line-height: 1.8;
+  }
+
+
