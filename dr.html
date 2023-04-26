@@ -1,0 +1,673 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prof (Dr). Deepali Virmani</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Montserrat font-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="resume.css" />
+    <script src="https://unpkg.com/feather-icons@4.28.0/dist/feather.min.js"></script>
+  </head>
+  <body>   
+    <section>
+      <!-- MOBILE NAVIGATION -->
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+      <div class="w3-container w3-padding-16 w3-border-bottom w3-hide-medium w3-hide-large">
+        <a href="#home" class="w3-bar-item w3-button w3-hover-none">CURRICULUM VITAE</a>
+        <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="toggleNavigation()">&#9776;</a>
+      </div>
+      <div id="mobile-nav" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-sticky">
+        <a href="#about" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ABOUT</a>
+        <a href="#resume" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">RESUME</a>
+        <a href="#contact" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">CONTACT</a>
+        <a href="#Academic Achievements" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">ACADEMIC ACHIEVEMENTS</a>
+        <a href="#Patents Granted " class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-border-green w3-hover-border-green w3-hover-text-white " style="color: green;" onclick="toggleNavigation()">Patents Granted</a>  
+        <a href="#Published " class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-border-green w3-hover-border-green w3-hover-text-white " style="color: green;" onclick="toggleNavigation()">Published</a> 
+        <a href="#International Journals" class="w3-bar-item w3-button w3-center w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green" onclick="toggleNavigation()">International Journals</a>
+
+      </div>
+
+      <!-- SOCIAL SECTION -->
+      <section class="image-section w3-quarter w3-fixed w3-padding-small">
+        <!--IMAGE/AVATAR-->
+        <img src="imgkurta.jpg" class="w3-circle w3-border w3-border-sand" style="border-width: 3px !important;"/>
+        <!--SCIAL NETWORK BUTTONS-->
+        <div class="links w3-margin-top w3-padding-small">
+          
+        
+          
+          <a class="icon-link w3-text-sand w3-hover-text-amber" href="https://www.linkedin.com/in/dr-deepali-virmani-b8785912" target="_blank">
+             <i data-feather="linkedin"></i>
+          </a>
+        </div>
+        <!--CV DOWNLOAD BUTTON-->
+        <div class="w3-container w3-padding-16">
+          <a href="resume.pdf" class="w3-amber w3-hover-amber w3-button w3-round-small w3-hover-deep-orange w3-padding-large" target="_blank" download="resume.pdf">
+            <i data-feather="arrow-down" style="vertical-align: -0.35em;"></i>
+            <span class="w3-margin-left download-text">DOWNLOAD CV</span>
+          </a>
+        </div>
+            <a href="https://scholar.google.co.in/citations?user=FM-TJ_IAAAAJ&hl=en&oi=ao" target="_blank" style="color: aliceblue;"> Google scholar</a> <br>
+            <a href="http://www.researcherid.com/rid/ Web of Science" target="_blank" style="color: aliceblue;"> Research gate Profile</a> <br> 
+            <a href="https://www.webofscience.com/wos/author/record/R-6402-2016" target="_blank" style="color: aliceblue;"> Researcher ID</a> <br> <br> <br>
+
+            <a href="#Patents Granted " class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-border-green w3-hover-border-green w3-hover-text-white " style="color: green;" onclick="toggleNavigation()">Patents Granted</a> <br> 
+            <a href="#Published " class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-border-green w3-hover-border-green w3-hover-text-white " style="color: green;" onclick="toggleNavigation()">Published</a> <br> 
+
+            <a href="#International Journals " class="w3-bar-item w3-button w3-center w3-hover-none w3-hover-border-green w3-hover-border-green w3-hover-text-white " style="color: green;" onclick="toggleNavigation()">International Journals</a>
+
+
+      </section>
+
+      
+
+      <!--CV CONTENT SECTION-->
+      <section class="w3-threequarter w3-padding-large w3-right">
+        <!--DESKTOP NAVIGATION-->
+        <div class="w3-container w3-padding-large w3-border-bottom w3-hide-small">
+          <a href="#home" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green">CURRICULUM VITAE</a>
+          <a href="#contact" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">CONTACT</a>
+          <a href="#resume" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">RESUME</a>
+          <a href="#about" class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ABOUT</a>
+          <a href="#Academic Achievements " class="w3-bar-item w3-button w3-hover-none w3-border-white w3-bottombar w3-hover-border-green w3-hover-text-green w3-right w3-hide-small" style="border-width: 2px !important;" onclick="toggleNavigation()">ACADEMIC ACHIEVEMENTS</a>
+
+
+
+        </div>
+        <div class="content-container w3-margin-top-2">
+          <!--HOME SECTION-->
+          <div id="home" class="home w3-container w3-margin-top-4 w3-cursive">
+            <p style="font-style: italic; font-size:x-large;"></p>
+            <h2>Prof (Dr).  Deepali Virmani </h2>
+            
+            <p></p>
+          </div>
+          
+
+          <!--ABOUT SECTION-->
+          <div id="about" class="w3-container w3-margin-top-20-percent w3-cursive w3-large">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ABOUT</h2>
+            <p class="w3-margin-top-2"> 
+              
+            
+            </p>Technology driven research professional with 22 years of experience in variety of domains
+            in computer science like machine learning, artificial engineering, data science, sensor
+            networks and much more. Did all the planning for getting CSE Department of BPIT NBA
+            Accredited (completed 3 cycles) in the capacity of HOD CSE Department as well as
+            well-versed with NAAC criteria’s. Was selected as Margdarshak by AICTE for NBA
+            accreditation. Single handedly done all the infrastructural planning as well established all the labs
+            for B.Tech at VIPS-TC in the capacity of Head of B.Tech Programmes. Workked as NAAC
+            coordinator for B.Tech Programmes at VIPS-TC. Innovation portfolio of multiple
+            international publications of more than 110 publications with a google citation count of 2489
+            H index 20 and 15 PATENTS (7 granted &amp; 8 Published). Extensive experience in
+            coordinating technical events hosted by IIT Mumbai, IIT Delhi, IIT Kharagpur, AICTE.
+            Experienced in syllabus formulation for B.Tech courses in GGSIPU. Recognized PhD
+            supervisor of Guru Gobind Singh Indraprastha University, Delhi. 6 candidates have been
+            awarded PhD and Presently guiding 4 PhD scholars registered with different universities
+            like GGSIPU, UPTU, Galgotias University etc. Organized and chaired multiple
+            international conferences and active member of many technical bodies like IEEE, CSI,
+            and IETE etc. Organized more than 50 FDP’S for the faculty members as per the
+            technological demands. Organized many trainings for the students to map up the academia-
+            industry needs.
+            
+        
+          </div>
+
+          <div id="resume" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">RESUME</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+
+              <!--EMPLOYMENT HISTORY SECTION-->
+
+              <!---EDUCATION SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+                <h3 class="w3-border-amber">EDUCATIONAL QUALIFICATION</h3> <br>
+                  <h5>Ph.D in Computer Science (2013), Delhi University <h5>
+                  <h5>M.Tech – IT – GGSIPT (2005) <h5>
+                  <h5>B.Tech Computer Science– M.D.U (2001)</h5> <br>
+              </div>
+              
+
+
+              <h3 class="w3-border-amber" >MY EMPLOYMENT HISTORY</h3> <br>
+              <div class="">
+                <h4>Professor and HOD of B.Tech Programmes  </h4> 
+                <h5>Vivekananda Institute of Professional Studies – Technical Campus</h5>
+                <p>Aug 2021 - Present </p> <br>
+                <ul class="w3-ul" style="font-weight: 500;">
+
+
+              <div class="">
+                <h4>Head of Department & Professor CSE Department</h4>
+                <h5>Bhagwan Parshuram Institute of Technology</h5>
+
+                <p>Aug-2002 to Aug-2009 </p> <br>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  
+
+                </ul>
+              </div>
+
+              <div class="">
+                <h4>Assistant Professor & HOD  IT Department</h4>
+                <h5>GPMCE – GGSIPU</h5>
+                <p>Aug-2002 to Aug-2009 </p> <br>
+                <ul class="w3-ul" style="font-weight: 500;">
+                  
+                
+                </ul>
+              </div>
+                  
+              <div class="">
+                
+                <h4>Lecturer CSE</h4>
+                <h5>Hindu College</h5>
+                <p>Jul-2001 to Jul-2002</p>
+                <ul class="w3-ul" style="font-weight: 500;">
+                 
+              
+              
+              
+            </div>
+            <!---Cources-->
+            <div class="w3-container w3-margin-top-2 w3-large">
+              <h3 class="w3-border-amber">AREAS OF INTERESTS</h3> <br>
+              <ol>
+              <li>Machine Learning</li>
+              <li>Data Science</li>
+              <li>Knowledge Discovery</li>
+              <li>Information Retrieval</li>
+              <li>Sentiment Analysis</li>
+              <li>Opinion Mining</li>
+              <li>Sensor networks</li>
+            </ol>
+          </a>
+              
+            </div>
+
+            <!--SKILLS SECTION-->
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+              <h3 class="w3-border-amber">Co-curricular/Extracurricular activity organized</h3> <br>
+              <!--SOFT SKILLS-->
+              <ul class="w3-ul" style="font-weight: 500;">
+                <ol>
+                <li>Setup of all labs and classrooms at VIPS TC</li>
+                <li>Member of Syllabus draft committee for AI-DS, AI-ML, IIOT</li>
+                <li>Head of Technical Committee for BPIT college fest.</li>
+                <li>Remote Center Coordinator IIT Bombay, IIT Kanpur at BPIT</li>
+                <li>Remote Center Coordinator IIT Bombay, IIT Kanpur at VSE&T</li>
+                <li>Nodal Center In charge of Spoken Tutorial labs, IIT Bombay at BPIT & VSE&T</li>
+                <li>Nodal Center Officer of Virtual Labs, IIT Delhi at BPIT</li>
+                <li>Inter College Project Coordinator of GGSIPU for CSE branch</li>
+                <li>IOSD (International Organization Software Development) Faculty In charge</li>
+                <li>CSI Student Branch Counselor at BPIT</li>
+                <li>IEEE Student Branch Counselor at BPIT</li>
+                <li>Organized many more than 20 FDP’s / 85 Workshops/ 100 Seminars at department Level as the Head of Department of CSE.</li>
+                <li>Coordinator of FOSS Cell in association with International Centre for Free and Open Source Software (ICFOSS), Government of Kerala. First FOSS Cell in Delhi.</li> <br>
+                </ol>
+
+               
+
+
+              </ul>
+              
+            </div>
+
+            
+                      <!--ACADEMIC ACHIEVEMENTS -->
+          <div id="#Academic Achievements" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">ACADEMIC ACHIEVEMENTS</h2>
+            <div class="w3-container w3-margin-top-2 w3-cursive">
+                
+                <div class =''> 
+                <p><ol>
+                  <li>NBA coordinator for CSE Branch at BPIT as HOD CSE </li>
+                  <li>                    NAAC coordinator for criteria 3 for BPIT 
+                  </li>
+                  <li>                    NAAC coordinator for B.Tech at VIPS-TC
+                  </li>
+                  <li>                    Member of Machine Member Intelligence Research Lab, USA.
+                  </li>
+                  <li>                    Paper title “CNN-LSTM Based Facial Expression Recognition”, has been awarded as Best Paper for AICTE Sponsored International Conference on Computing Informatics and Networks (ICCIN 2020) 
+                  </li>
+                  <li>                    Paper title “Reckoning Number of Eye Blinks Using Eye Facet Correlation for Exigency Detection”, has been awarded as Best Paper for International Conference on Signals, Machines and Automation (SIGMA 2018) (23 – 25 February, 2018, NSIT Delhi).
+                  </li>
+                  <li>                    Awarded for “Excellence in Research” by International Research Awards on New Science, NESIN 2020, registered by Ministry of Corporate Affairs (MCA), Govt of India.
+                  </li>
+                  <li>                    Awarded for “Excellence in Research” by Novel Research Academy, under the Ministry of MSME, Government of India, Registered UA No: PY03D0003488.
+                  </li>
+                  <li>                    Awarded as “Best Head of the Department of Computer Science” by Universal Inovators Awa Leadership Awards (UILA -2021).
+                  </li>
+                  <li>                    Awarded for “Excellence in Research” by Global eminence awards, under the Ministry of MSME, Government of India.
+                  </li>
+                  <li>                    Granted 7 International Patents and Published 8 Patents.
+                  </li>
+                  <li>                    Guest Editor of Special Issue on “Intelligent Decision Making using Best Practices of Big Data Technologies” Part-I & Part-II of Journal of Statistics & Management Systems. ISSN 0972-0510, Sep-Oct 2020. 
+                  </li>
+                  <li>                    Guest Editor of Special Issue on “Applied Machine Learning for IoT and Smart Data Analysis” Part-I & Part-II of Journal of Information & Optimization Sciences. . ISSN 0252- 2667, Sep-Oct 2020.
+                  </li>
+                  <li>                    Guided more than 100 Projects for B.Tech final year students.
+                  </li>
+                  <li>                    Oracle certified faculty for Java Fundamentals and Programming.
+                    
+                  </li>
+                  <li>                    Organized AICTE Sponsored International Conference (ICCIN 2020) as convenor with publication in LNNS Springer and Taylor & Francis.
+                  </li>
+                  <li>                    Organized National Conference (NCCIN 2k18) as convenor., and organized AICTE sponsored International Conference ICCIN 2k14 as Co-convenor.
+                  </li>
+                  <li>                    Organized special session on “Hybrid Computational Intelligence in Remote Sensing” at the 20th International Conference on Hybrid Intelligent Systems (HIS'20), proceedings in Springer.
+                  </li>
+                  <li>                    Published more than 100 papers in International and National Journals and Conferences (Details attached).
+                  </li>
+                  <li>                    Published 5 books.
+                  </li>
+                  <li>                    Organized more than 20 FDP’s in association with IIT Bombay and 100 Seminars at Bhagwan Parshuram Institute of Technology as HOD, CSE.
+                  </li>
+                  <li>                    Set up all the labs of Engineering department at Vivekananda School of Engineering and Technology, VIPS-TC as a founder faculty in B.Tech Programmes.
+                  </li>
+                  <li>                    Organized more than 5 FDP’s and 20 Seminars with National /International Speakers at Vivekananda School of Engineering and Technology, VIPS-TC as HOD, B.Tech Programmes.
+                  </li>
+                  <li>                    Organized Student Development Training on R Programming in association with IIT Kanpur.
+                  </li>
+                  <li>                    Reviewer of International Journal of Information Fusion (Elsevier, SCI Indexed) since 2018.
+                  </li>
+                  <li>                    Reviewer of International Journal of Computer Methods and Programs in Biomedicine
+                  </li>
+                  <li>                    (Elsevier, SCI Indexed) since 2020.
+                  </li>
+                  <li>                    Project title, “I see+”, won the Second Position in Inter-college Project Competition for CSE branch of GGSIPU in May 2019.
+                  </li>
+                  <li>                    Project title, “Virtual Eyes”, won the First Position in Inter-college Project Competition for CSE branch of GGSIPU in May 2018. 
+                  </li>
+                  <li>                    Project title, “Face Recognition of Alert System”, won the Second Position in Inter-college Project Competition for CSE branch of GGSIPU in June 2017.
+                  </li>
+                  <li>                    Project title, “Automation of Weapon Develop in Military using Wireless Sensor Networks”, won the First Position in Inter-college Project Competition for CSE branch of GGSIPU in May 2016.
+                  </li>
+                  <li>                    Project title, “Smart Stick”, won the Second Position in Inter-college Project Competition for IT branch of GGSIPU in May 2016.
+                  </li>
+                  <li>                    Project title, “Opinion Mining and Sentiment Analysis”, won the first price in Inter-college Project Competition for CSE branch of GGSIPU in May 2015.
+                  </li>
+                  <li>                    Delivered lectures in many FDP’s.
+                  </li>
+                  <li>                    Chaired the sessions and reviewed papers for many International and National Conference
+                  </li>
+                  </ol>
+
+                  
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    </p>
+                </div>
+
+                <div class="">
+  
+                <h2>PATENTS GRANTED</h2>
+                <p>
+                  <ol>
+                    <li>                     Title of Invention: Information Locker System for Android Mobile Users Using Steganography Technique. Patent Number 202010233, Innovation patent, granted by intellectual property (IP) rights Australia, valid till 18/9/2028. 
+                    </li>
+                    <li>                    Title of Invention: A Quality of service oriented network selection scheme for 802.11 WLANs with packet delay bandwidth. Patent Number 2020102618, Innovation patent, granted by intellectual property (IP) rights Australia, valid till 6/10/2028. 
+                    </li>
+                    <li>                    Title of Invention: Information Severity level and early prediction of COVID-19 using CEDCNN Classifier. Patent Number 2020102631, Innovation patent, granted by intellectual property (IP) rights Australia, valid till 7/10/2028. 
+                    </li>
+                    <li>                    Title of Invention: AI enabled Assistive Technology Development for Visually Impaired People using Deep Learning. Patent Number 2020103341, Innovation patent, granted by intellectual property(IP) rights Australia, valid till 10/11/2028. 
+                    </li>
+                    <li>                    Title of Invention: The Computer Aided Diagnosis (CAD) System for the Detection of Alzheimer Disease Using MRI Real Images. Patent Number 2021101725, Innovation patent, granted by intellectual property (IP) rights Australia, valid till 5/5/2029. 
+                    </li>
+                    <li>                    Title of Invention: Methodology for Detecting Disease in Plants using Image Processing Technique, Patent Number 2021100952, Innovation patent, granted by intellectual property(IP) rights Australia, valid till 10/5/2029. 
+                    </li>
+                    <li>                    Title of Invention: An artificial intelligence and IOT based system for accessing civil infrastructure, Patent Number 2021100952, Innovation patent, granted by intellectual property (IP) rights Australia, valid till 7/27/2029. 
+                    </li>
+                    <li>                    Title of Invention: An artificial intelligence and IOT based system for accessing civil infrastructure, Patent Number 2021100952, Innovation patent, granted by intellectual property (IP) rights Australia, valid till 7/27/2029. 
+                    </li>
+                    <li>Title of Invention: An artificial intelligence and IOT based system for accessing civil infrastructure, Patent Number 2021100952, Innovation patent, granted by intellectual property (IP) rights Australia, valid till 7/27/2029. 
+                    </li>
+                  </ol>
+                    </p>
+                
+                    <h2>PUBLISHED</h2>
+                    <p>
+                      <ol>
+                      <li>                      Title of Invention: Method for Emotion Detection of Mentally Retarded Person Using Machine Learning. Application Number 202041002879, Published with Intellectual Property Rights, Patent Office India on 24th January 2020.
+                      </li>
+                      <li>                        Title of Invention: Secure Method for Protecting the Sensitive Information of The Mobile Users. Application Number 202041003464, Published with Intellectual Property Rights, Patent Office India on 7thFeb 2020. 
+                      </li>
+                      <li>                        Title of Invention: Ensemble Multi-Stage System And Method To Predict Underwater Seismic Rated On Aquatic Behavior. Application Number 202041009855, Published with Intellectual PropertyRights, Patent Office India on 20th March 2020.
+                      </li>
+                      <li>                        Title of Invention: A Kernel Oriented Controller Modelling System To Optimize The Convergence Performance In Big Data Analytics. Application Number 202041010279, Published with Intellectual Property Rights, Patent Office India on 13th March 2020. 
+                      </li>
+                      <li>                        Title of Invention: A Novel Method For Emotion Detection Of Child Autism Spectrum Disorder (Asm) Using Machine Learning. Application Number 202041009386, Published with Intellectual Property Rights, Patent Office India on 31st July 2020. 
+                      </li>
+                      <li>                        Title of Invention: Method System And Method To Derive Dependency Between Course Outcomes With Program Outcomes. Application Number 202011013777 Published with Intellectual Property Rights, Patent Office India on 8th May 2020.Title of Invention: Method For Detecting The Malpractice In Online Examinations By Motion Detection. Application Number 202041032422 Published with Intellectual Property Rights, Patent Office India on 21st August 2020. 
+                      </li>
+                      <li>                        Title of Invention: An artificial intelligence and IOT based system for accessing civil infrastructure. Application Number 2021104585, Published with , intellectual property(IP) rights Australia, on 27/7/21. 
+                      </li>
+                      </ol>
+
+
+                        
+                        
+                        
+                        
+                        
+                        
+                    </p>
+                </div>
+
+                <div class="">
+
+
+                <h2>INTERNATIONAL JOUNALS</h2>
+                <p>1.	Sandhu, G., Singh, A., Lamba, P. S., Virmani, D., & Chaudhary, G. Modified Euclidean-Canberra blend distance metric for kNN classifier. Intelligent Decision Technologies, (Preprint), 1-15. <br> <br>
+                    2.	Lamba, Puneet Singh; Virmani, Deepali; Pillai, Manu S.; Chaudhary, Gopal, “Multimodal Human Eye Blink Recognition Using Z-score Based Thresholding and Weighted Features.”, International Journal of Interactive Multimedia & Artificial Intelligence. Jun2022, Vol. 7 Issue 4, 100-111. Pp.12. <br> <br>
+                    3.	Girdhar, Palak, Prashant Johri, and Deepali Virmani. "Deep Learning in Image Classification: Its Evolution, Methods, Challenges and Architectures." Advances in Distributed Computing and Machine Learning: Proceedings of ICADCML 2022. Singapore: Springer Nature Singapore, 2022. 381-392. <br> <br>
+                    4.	Abdul hussein, A. A., Hassen, O. A., Gupta, C., Virmani, D., Nair, A., & Rani, P. “Health monitoring catalogue based on human activity classification using machine learning”. International Journal of Electrical & Computer Engineering, (2022), (2088-8708), 12(4). <br> <br>
+                    
+                    5.	Gupta, T., Joshi, R., Mukhopadhyay, Deepali Virmani. et al. “A deep learning approach-based hardware solution to categorise garbage in environment”. Complex Intell. Syst. 8, 1129–1152 (2022). https://doi.org/10.1007/s40747-021-00529-0 <br> <br>
+                    6.	Dwivedi, Atul Kumar, Deepali Virmani, Anusuya Ramasamy, Purnendu Bikash Acharjee, and Mohit Tiwari. "Modelling and analysis of artificial intelligence approaches in enhancing the speech recognition for effective multi-functional machine learning platform–A multi regression modelling approach." Journal of Engineering Research 10 (2022). <br> <br>
+                    7.	Gupta, V., Jain, N., Virmani, D. et al. Air and water health: industrial footprints of COVID-19 imposed lockdown. Arab J Geosci 15, 687 (2022). https://doi.org/10.1007/s12517-022-09986-4 <br> <br>
+                    8.	C Gupta, D Virmani , D Gaur, P Agrawal, HuDA_COVID Human Disposition Analysis During COVID-19 Using Machine Learning, International Journal of E-Health and Medical Communications (IJEHMC). 2022, 13(2), DOI: 10.4018/IJEHMC.20220701.oa1 <br> <br>
+                    9.	Jain, N., Virmani, D Gupta, V., Chakraborty, C., Madan, V bansal.,. et al. “Empirical Assessment of Bacillus Calmette-Guérin Vaccine to Combat COVID-19”. CMC-Computers, Materials & Continuation, (2022).  70(1), 213–231. <br> <br>
+                    10.	Pandey, Hemakshi, Riya Goyal, Deepali Virmani, and Charu Gupta. "Ensem_SLDR: Classification of Cybercrime using Ensemble Learning Technique." International Journal of Computer Network & Information Security 14, no. 1 (2022).<br> <br>
+                    11.	Virmani, Deepali, and Himakshi Pandey. "Comparative Analysis on Effect of Different SVM Kernel Functions for Classification." Lecture Notes in Networks and Systems, vol 238., (2022). Springer, Singapore, Volume 3, pp. 657-670. Singapore: Springer Nature Singapore, 2022. <br> <br>
+                    12.	Singh, N., Virmani, D. Novel Intrusion Prevention and Detection Model in Wireless Sensor Network. Data Engineering for Smart Systems. Lecture Notes in Networks and Systems, vol 238., (2022). Springer, Singapore. https://doi.org/10.1007/978-981-16-2641-8_42<br> <br>
+                    
+                    13.	Rustagi, Apeksha, Deepali Virmani, Ashok Kumar, Charu Gupta, Prateek Agrawal, and Vishu Madaan. "COVID‐19 Curve Exploration Using Time Series Data for India." Machine Learning and Data Science: Fundamentals and Applications (2022): 75-88.<br> <br>
+                    14.	Jain, N., Bansal, V., Virmani, D., Gupta, V., Salas-Morera, L., & Garcia-Hernandez, L. (2021). An Enhanced Deep Convolutional Neural Network for Classifying Indian Classical Dance Forms. Applied Sciences, 11(14), 6253.<br> <br>
+                    15.	Vij, Sonakshi, Deepali Virmani, and Amita Jain. "Retrospective Inspection for Research in Natural Language Processing of Hindi Language Using Fuzzy Logic." Lecture Notes in Networks and Systems, vol 238., (2022). Springer, pp. 303-309. Singapore: Springer Nature Singapore, 2022.<br> <br>
+                    16.	Girdhar, Palak, Prashant Johri, and Deepali Virmani. "An Improved Empirical Hyper-Parameter Tuned Supervised Model for Human Activity Recognition based on Motion Flow and Deep Learning." International Journal of Performability Engineering 18, no. 11 (2022).<br> <br>
+                   
+                    17.	Deepali Virmani Palak Girdhar, Prashant Johri, "Vision Based Human Activity Recognition: A Comprehensive Review of Methods & Techniques." Turkish Journal of Computer and Mathematics Education (TURCOMAT) 12.10 (2021): 7383-7394 <br> <br>
+                    
+                    18.	Malik Mustafa, Deepali Virmani, Karthikeyan Kaliyaperumal, Khongdet Phasinam, A.Deepak, Thakur Santosh. “Towards Investigation of Various Security And Privacy Issues In Internet Of Things”. Design Engineering, 2021(04), 1747 – 1758	<br> <br>
+                    19.	Puneet Singh Lamba, Deepali Virmani “CNN-LSTM-Based Facial Expression Recognition” Lecture Notes in Networks and Systems, vol 167. Springer, Singapore. (2021) https://doi.org/10.1007/978-981- 15-9712-1_16.	<br> <br>
+                    20.	Deepali Virmani, Akshat Minocha, Lakshay Goyal, Megha Malhotra, Megha Gupta “Se. Re. Ne.: Stress Detection Using EEG and ECG” Lecture Notes in Networks and Systems, vol 167.Springer, Singapore. (2021) https://doi.org/10.1007/978-981-15-9712-1_16. <br> <br>
+                    
+                    21.	N. Singh and D. Virmani, "A Novel Algorithm to Segregate Suspicious node in FzMAI," 2020 2nd International Conference on Advances in Computing, Communication Control	and Networking (ICACCCN), IEEE Explore (2020), pp. 420-425, doi: 10.1109/ICACCCN51052.2020.9362965. <br> <br>
+                    
+                        
+                    22.	Tanisha Madan, Shrddha Sagar, Deepali Virmani “Air Quality Prediction using Machine Learning Algorithms–A Review” IEEE Explore, DOI: 10.1109/ICACCCN51052.2020.9362912 <br> <br>
+                    23.	Jain, N., Virmani, D. & Abraham, A. “Tsunami in the last 15 years: a bibliometric analysis with a detailed overview and future directions”. Nat Hazards (2021). https://doi.org/10.1007/s11069-020-<br> <br>
+                    24.	Preeti Arora, Deepali Virmani, Aradhay Jain, Akshay Vats. “RESUME SELECTOR” UsingPyspark and Hadoop In Advances in Electromechanical Technologies (pp. 287-297). Springer, Singapore. (2021) <br> <br>
+                    25.	Virmani D., Sharma T., Garg M. “GAPER: Gender, Age, Pose and Emotion Recognition Using Deep Neural Networks”. In Advances in Electromechanical Technologies. Lecture Notes in Mechanical Engineering. (2021) Springer, Singapore. https://doi.org/10.1007/978-981-15-5463- 6_26 <br> <br>
+                    26.	Lamba P.S., Virmani D. “DCNN-Based Facial Expression Recognition Using Transfer Learning”. In Advances in Intelligent Systems and Computing,  vol 1164. Springer,  Singapore. (2021) https://doi.org/10.1007/978-981-15-4992-2_48	<br> <br>
+                    27.	Deepali Virmani, Charu Gupta, Pakhi Bamdev & Prateek Jain “iSeePlus : A cost effective smart assistance archetype based on deep learning model for visually impaired”, Journal of Information and optimization Sciences, (2020) 41:7, 1741-1756, DOI: 10.1080/02522667.2020.1812198 <br> <br>
+                    28.	Palak Girdhar, Prashant Johri & Deepali Virmani “Incept_LSTM : Accession for human activity concession in automatic surveillance”, Journal of Discrete Mathematical Sciences and Cryptography, (2020) DOI: 10.1080/09720529.2020.1804132	<br> <br>
+                    29.	Neha Singh & Deepali Virmani , “A Fuzzy Logic-Based Method to Avert Intrusions in Wireless Sensor Networks Using WSN-DS Dataset, International Journal of Computational Intelligence and Applications, (2020)	<br> <br>
+                    30.	Deepali Virmani, Gurpreet Singh, Lokesh Aggarwal & Mansi Gupta “Ensemble model using hybridization of angles and distances for emotion recognition (HADER)”, Journal of Information and Optimization Sciences, (2020) , DOI: 10.1080/02522667.2020.1802122	<br> <br>
+                    31.	Puneet Singh Lamba & Deepali Virmani “Contactless heart rate estimation from face videos”, Journal of Statistics and Management Systems, DOI: 10.1080/09720510.2020.1799584 (2020) <br> <br>
+                    32.	Neha Singh & Deepali Virmani “Competence computation of attacks in wireless sensor network”, Journal of Statistics and Management Systems, DOI: 10.1080/09720510.2020.1799580, (2020) <br> <br>
+                    33.	Neha Singh & Deepali Virmani “Computational method to prove efficacy of datasets”, Journal of Information and Optimization Sciences, DOI: 10.1080/02522667.2020.1747193, (2020) <br> <br>
+                    34.	N. Jain, D. Virmani, A. Abraham, L. Salas-Morera and L. Garcia-Hernandez, "Did They Sense it Coming? A Pipelined Approach for Tsunami Prediction Based on Aquatic Behavior Using Ensemble Clustering and Fuzzy Rule-Based Classification," in IEEE Access, vol. 8, pp. 166922- 166939, 2020, doi: 10.1109/ACCESS.2020.3022865	<br> <br>
+                    35.	Lamba, P.S., Virmani, D. & Castillo, O. “Multimodal human eye blink recognition method using feature level fusion for exigency detection”. Soft Comput (2020). https://doi.org/10.1007/s00500- 020-04979-5<br> <br>
+                    
+                    36.	Deepali, Virmani, Nikita Jain and Ajith Abraham " Proficient 3-class classification model for confident overlap value based fuzzified aquatic information extracted tsunami prediction" Intelligent Decision Technologies1 (2019), pp. 1-9, IOS Press. DOI 10.3233/IDT-180003 <br> <br>
+                    
+                    37.	Deepali, Virmani “Self Regulatory Automated System for Samson Family and Its Variants to Barricade the Intruders using Wireless Sensor Nodes” International Journal of Innovative Technology and Exploring Engineering (IJITEE) Vol 8 -1 2019, pp. 2094 - 2100. <br> <br>
+                    
+                        
+                    38.	Deepali Virmani Savneet Kaur "An Experimental Analysis of Routing	Protocol with Mobile Sink" International Journal of Recent Technology and Engineering (IJRTE) Vol 8 -8 2019, pp. 2128- 2130.<br> <br>
+                    
+                    39.	Deepali, Virmani, Palak Girdhar, Prateek Jain Pakhi "FDREnet: Face Detection and Recognition Pipeline." Engineering, Technology & Applied Science Research 9.2 (2019): 3933- 3938<br> <br>
+                    
+                    40.	Deepali Virmani,Palak Girdhar and S. Saravana Kumar. "A hybrid fuzzy framework for face detection and recognition using behavioral traits." Journal of Statistics and Management Systems 22.2 (2019): 271-287. <br> <br>
+                    
+                    41.	Deepali Virmani and Puneet Singh Lamba,,. "Information retrieval from facial expression using voting to assert exigency." Journal of Discrete Mathematical Sciences and Cryptography 22.2 (2019): 177-190. <br> <br>
+                    
+                    
+                    42.	Deepali Virmani and Nikita Jain "Ensemble learning using fast rule based fuzzy K–means pre clustering and classification for aquatic behavior- extracted tsunami prediction." Journal of Information and Optimization Sciences 40.2 (2019): 441-453.<br> <br>	
+                    
+                    43.	Deepali Virmani, Nikita Jain, “Overlap Function Based Fuzzified Aquatic Behaviour Information Extracted Tsunami Prediction Model , International Journal of Distributed Systems and Technologies (IJDST), IGI Global, Vol 10,Issue 1 , pp. 56-81, (Jan 2019). <br> <br>
+                    
+                    44.	Deepali, Virmani, Anshika Agarwal, and Devrishi Mahajan. "Smart Anti-theft System for Vehicles Using Mobile Phone." In Smart Innovations in Communication and Computational Sciences, Advances in Intelligent Systems and Computing book series (AISC), volume 669 pp. 265-278, Springer, Singapore, (2019).<br> <br>	
+                    
+                    
+                    45.	Deepali Virmani, and Shweta Taneja. "A Text Preprocessing Approach for Efficacious Information Retrieval." In Smart Innovations in Communication and Computational Sciences, Advances in Intelligent Systems and Computing book series (AISC), volume 669, pp. 13-22. Springer, Singapore, (2019). <br> <br>
+                    
+                    
+                    46.	Nikita Jain, Deepali Virmani,” A Novel Navigation Based Decision Algorithm To Generate Tsunami Alerts Using Sensor Nodes”, COMPUSOFT, An International Journal of Advanced Computer Technology, vol 7, Issue 12, pp. 2945- 2949, 2019.	<br> <br>
+                    
+                    
+                    47.	Deepali Virmani, Puneet Singh, “Reckoning number of eye blinks using eye facet correlation for exigency detection” Journal of Intelligent & Fuzzy Systems (IOS Press), vol. 35, no. 5, pp. 5279- 5286, (2018).<br> <br>
+                    
+                    48.	Puneet Singh, Deepali Virmani. "Information Retrieval from Emotions and Eye Blinks with Help ofSensor Nodes." International Journal of Electrical and Computer Engineering (IJECE) ,VOl 8, issueno. 4 (2018). <br> <br>
+                    
+                    49.	Deepali Virmani Palak Girdhar, “An Analysis of Feature Selection Method In Mobile Malware Detection”, International Journal of Engineering Applied Sciences and Technology, Vol 3, issue 7, pp. 56-61, (2018). <br> <br>
+                    
+                    50.	Deepali, Virmani, Nikita Jain, Abhishek Srivastav, Mahima Mittal, and Surbhi Mittal. "An Enhanced Binary Classifier Incorporating Weighted Scores." Engineering, Technology & Applied Science Research, Vol 8, no. 2, pp.2853-2858 (2018).	<br> <br>
+                    
+                    51.	Deepali, Virmani, Nikita Jain, Ketan Parikh, Shefali Upadhyaya, and Abhishek Srivastav. "Proficient Normalised Fuzzy K-Means With Initial Centroids Methodology." International Journal of Knowledge Discovery in Bioinformatics (IJKDB) 8, no. 1, pp. 42-59(2018). <br> <br>
+                    
+                    52.	Deepali Virmani, Jain, V. K., Preeti Arora, and Ankit Arora. "BOMEST” a Vital Approach toExtract the Propitious Information from the Big Data." In Information and Communication Technology for Sustainable Development, pp. 441-448. Springer, Singapore, 2018. <br> <br>	
+                    
+                    53.	Deepali Virmani, Nikita Jain, Ketan Parikh, and Abhishek Srivastava. "HashMiner: Feature Characterisation and analysis of# Hashtag Hijacking using real-time neural network." Procedia Computer Science 115 (2017): 786- 793.	<br> <br>
+                    
+                    
+                    54.	Deepali Virmani, Preeti Arora, and Pradnya Satish Kulkarni. "Cross domain analyzer to acquire review proficiency in big data." ICT Express 3, no. 3 (2017): 128-131.	<br> <br>
+                    55.	Deepali virmani, Anshika agarwal, “A Novel Design for Prevention of Vehicle Theft using IoT ”, The International Journal of Innovative Research in Science, Engineering and Technology,Volume 6, Issue 8, August 2017, 10.15680/IJIRSET.2017.0608027<br> <br>
+                    56.	Deepali virmani, Anshika agarwal, , NANCY HADA, TARUN GUPTA “A Novel Design Approach for Smart Door Locking and Home Security using IoT” .The International Journal of Innovative Research in Science, Engineering and Technology, Volume 6, Issue 8, August 2017, 10.15680/IJIRSET.2017.0608119. <br> <br>
+                    
+                    57.	Jain, Nikita, Deepali Virmani, Rachita Gupta, Kanika Gupta, and Akshat Bansal. "Mining underground alert signals for seismic detection using wireless sensor nodes." In Signal Processing and Communication (ICSPC), 2017 International Conference on, pp. 274-282. IEEE Explore, DOI: 10.1109/CSPC.2017.8305853, 2017.	<br> <br>
+                    
+                    58.	Deepali Virmani, Aakash Tyagi ,Tanya Aggarwal , Kartikay Gupta , Gulshan Singh,” Facial Recognition Alert System”, Indian Journal of Scientific Research, Vol 14, issue 2, pp. 299-303, (2017).<br> <br>
+                    
+                    59.	Neha Singh , Dr. Deepali Virmani ,”Capability Analysis of Attacks in Wireless Sensor Network”,   International Journal on Recent and Innovation Trends in Computing and Communication ISSN: 2321- 8169 Volume: 5 Issue, pp 1266 – 1270.<br> <br>
+                        
+                    60.	Deepali Virmani, Arora, Preeti, and P. S. Kulkarni. "An Approach for Big Data to Evolve the AuspiciousInformation from	Cross-Domains”, International Journal of Electrical and Computer Engineering (IJECE) 7, no. 2 (2017),967- 974.<br> <br>
+                    
+                    61.	Deepali Virmani, Preeti Arora, Ekta Sethi, and Neha Sharma. "Variegated data swabbing: An improved purge approach for data cleaning." In Cloud Computing, Data Science & Engineering- Confluence, 2017 7th International Conference on, pp. 226-230. IEEE, 2017. <br> <br>
+                    
+                    62.	Deepali Virmani, Arora, Preeti, and Shipra Varshney. "Substantiation of K- Means and Affinity Propagation algorithm." In Cloud Computing, Data Science & Engineering-Confluence, 2017 7th International Conference on, pp. 82-85. IEEE, 2017.	<br> <br>
+                    
+                    63.	Deepali Virmani, Arora, Preeti, Himanshu Jindal, and Mritunjaya Sharma. "Sorted K-Means Towards the Enhancement of K-Means to Form Stable Clusters." In Proceedings of International Conference on Communication and Networks, pp. 479-486. Springer, Singapore, 2017. <br> <br>
+                    
+                    64.	Jain, Nikita, and Deepali Virmani. "Feature Classification for Underwater Seismic Prediction Using Wireless Sensor Nodes." In Proceedings of the International Multi Conference of Engineers and Computer Scientists, vol. 1. 2017. <br> <br>
+                    
+                    65.	Gupta, Ayushi, Deepali Virmani, and Payal Pahwa. "Priority Dissection Supervision for Intrusion Detection in Wireless Sensor Networks." In Proceedings of the International Conference on Data Engineering and Communication Technology, pp. 445-455. Springer, Singapore, 2017. <br> <br>
+                    
+                    66.	Deepali Virmani, & Nikita Jain, (2016, September)“Intelligent information retrieval for Tsunami detection using wireless sensor nodes”, International Conference on Advances in Computing, Communications and Informatics (ICACCI), 2016 ( pp. 1103-1109). IEEE. <br> <br>
+                    
+                    67.	Deepali Virmani Gupta, Ayushi, Ayushi Gupta,. "Centralized Message Reporting System in Wireless Sensor Networks." In Proceedings of the Second International Conference on Information and Communication Technology for Competitive Strategies, p. 11. ACM, 2016.<br> <br>
+                    
+                    68.	Dr Deepali ,Shipra Varshney Preeti Arora, “Analysis of K-Means and K-Medoids Algorithm For  Big Data”, Procedia Computer Science, ScienceDirect, Vol 78, pp. 507-512, 2016.	<br> <br>
+                    
+                    
+                    69.	Deepali Virmani , Pahwa, Payal, Sahil and Akshay Kumar. "A Novel Framework for Data Processing and Computation of Wireless Sensor Networks on Cloud." In Emerging Research in Computing, Information, Communication and Applications, pp. 219-226. Springer, New Delhi, 2016.	<br> <br>
+                    70.	Deepali Virmani, Shweta Taneja, Tanya Chawla, Rachesh Sharma, and Rohan Kumar. "Entropydeviation method	for	analyzing	network	intrusion." In Computing, Communication and Automation (ICCCA), 2016 International Conference on, pp. 515-519. IEEE, 2016.	(Scopus Indexed) <br> <br>
+                    
+                    71.	Deepali Virmani and Malhotra, Geetika, "Intelligent information retrieval in a Tsunami detection system using wireless sensor networks." In Computing, Communication and Automation (ICCCA), 2016 International Conference on, pp. 939-944. IEEE, 2016.	(Scopus Indexed)<br> <br>
+                    
+                    72.	Virmani, Deepali, and Pranav Gupta. "Adaptive Exponential Trust-Based Algorithm in Wireless Sensor Network to Detect Black Hole and Gray Hole Attacks." In Emerging Research in Computing, Information, Communication and Applications, pp. 65-73. Springer, Singapore, 2016. (Scopus Indexed)<br> <br>
+                    
+                    73.	Deepali Virmani ,Kaur, Savneet, Satbir Jain,. "Deployment of Wireless Sensor Networks for intelligent information retrieval in marine environment." In Control System, Computing and Engineering (ICCSCE), 2015 IEEE International Conference on, pp. 371-376. IEEE, 2015. (Scopus Indexed)<br> <br>
+                    
+                    74.	Deepali Virmani,, Shweta Taneja, and Pooja Bhatia. "Maestro algorithm for sentiment evaluation." In Proceedings of the Third International Symposium on Women in Computing and Informatics, pp. 244- <br> <br>
+                    249. ACM, 2015. (Scopus Indexed)
+                    
+                    75.	Deepali Virmani, Kumar, Akshay, Payal Pahwa, Vikas Rathi, and Sunil Swami. "Dynamic Cluster Head Selection Using Fuzzy Logic on Cloud in Wireless Sensor Networks." Procedia Computer Science 48 (2015): 497-502. (Scopus Indexed)<br> <br>
+                    
+                    76.	Deepali Virmani, Shweta Taneja, and Geetika Malhotra. "Normalization based K means Clustering Algorithm." International Journal of Advanced Engineering Research and Science (IJAERS)-Feb 2015.<br> <br>
+                    
+                    
+                    77.	Deepali Virmani, Shweta Taneja, and Pooja Bhatia. "Aspect level sentiment analysis to distil scrupulous opinionated result." In Computing, Communication & Automation (ICCCA), 2015 International Conference on, pp. 59-65. IEEE, 2015.<br> <br>
+                        
+                    78.	Deepali Virmani ,Kaur, Savneet and Satbir Jain. "A Novel Framework for Intelligent Information Retrieval in Wireless Sensor Networks." Emerging Research in Computing, Information, Communication and Applications (Vol 2), Elsevier Science and Technology. pp 123 -135 (2015) <br> <br>
+                    
+                    
+                    79.	Deepali Virmani, Savneet Kaurb, and Satbir Jainc. "Secure and Fault Tolerant Dynamic Cluster Head Selection Method for Wireless Sensor Networks." In International Conference on Information and Communication Technologies (ICICT 2014).	<br> <br>
+                    
+                    80.	Virmani, Deepali, and Geetika Malhotra. "Real time Routing Protocols in Wireless Sensor Networks: A Survey." International Journal of Computer Science and Information Technologies, Vol. 5 (2) , 2014, 2665- 2671 <br> <br>
+                    
+                    81.	Deepali Virmani, and Pranav Gupta . "Adaptive Fault Free and Secured Path Selection in Wireless Sensor Networks." International Journal of Computer Science and Information Technologies, Vol.6 (3) , 2015, 2779-2781. <br> <br>
+                    
+                    
+                    82.	Deepali Virmani, Vikrant Malhotra, Ridhi Tyagi, “Sentiment Analysis Using Collaborated Opinion Mining”, International Journal of Soft Computing and Engineering (IJSCE), Volume 4, March 2014,pp 34-37, ISSN: 2231-230.	<br> <br>
+                    
+                    83.	Deepali Virmani, Ankita Soni, Nikhil Batra, “Reliability Analysis to Overcome Black Hole Attack in Wireless Sensor Network”, International Journal of Soft Computing and Engineering (IJSCE), Volume 4, March 2014,pp 8-13, ISSN: 2231-230.	<br> <br>
+                    84.	Deepali Virmani, Manas , Shringarica, “Exponential Trust Based Mechanism to Detect Black Hole attack in Wireless Sensor Network”, International Journal of Soft Computing and Engineering (IJSCE), Volume 4, March 2014,pp 14-16, ISSN: 2231-230. <br> <br>
+                    
+                    85.	Deepali Virmani, “Topology Control Protocol for Maximizing Network Lifetime of WirelessSensor Networks”, International Journal of Advanced Science  and  Technology,  Vol.  55, pp. 101-109 June, 2013 (Scimago)<br> <br>
+                    86.	Deepali Virmani, “Maximizing Network Lifetime Operator for Wireless Sensor Networks”, International Journal of Computers and Informatics, Vol 4, No 2, March 2013,pp 267-272,ISSN: 2277-3061 <br> <br>
+                    
+                    87.	Deepali Virmani, AkshayJain ,AnkitKhandelwal ,Divik Gupta, Nitin Garg “Dynamic Clustering Protocol for Data Forwarding in Wireless Sensor Networks”, International Journal Of Computers &Technology, Vol 7, No 2, June 2013,pp 549-557, ISSN: 2277-3061 (Impact factor 1.315)<br> <br>
+                    
+                    88.	Deepali Virmani, Nidhi Beniwal, Gargi Mandal, Saloni Talwar, “Enhanced Tiny Encryption Algorithm with Embedding (ETEA)” International Journal of Computers & Technology, , Vol 7, issue 1, 2013, May 2013, pp. 493- 499 , ISSN: 2278-7917.<br> <br>
+                    
+                    
+                    89.	Deepali Virmani, Satbir Jain, “Clustering Based Lifetime Maximizing Aggregation Tree for Wireless Sensor Networks” International Journal of Advanced Studies in Computers, Science and Engineering, Vol 2, issue 1, 2013, Feb 2013, pp. 8-14, ISSN: 2278-7917.<br> <br>
+                    
+                    90.	Deepali Virmani, Gargi Mandal, Nidhi Beniwal, and Saloni Talwar, “ Dynamic Data Aggregation Tree for Data Gathering in Wireless Sensor Network”, International Journal of Innovative Technology and Exploring Engineering (IJITEE), Volume-2, Issue-3, February 2013, pp. 226-230, ISSN: 2278-3075<br> <br>
+                    
+                    91.	Deepali Virmani, Tanu Sharma and Ritu sharma, “Adaptive Energy Aware Data Aggregation Tree for Wireless Sensor Networks”, International Journal of Hybrid Information Technology, Vol. 6, No. 1, January, 2013, pp. 25-31, ISSN: 1738-9968.<br> <br>
+                    
+                    
+                    92.	Deepali Virmani, “Clustering Based Topology Control Protocol for Data Deliver in Wireless Sensor Networks”, International Journal of Computer Science , August 2012,Vol 3,Issue 3 ,No 2, ISSN: - 1324- 0624. (Impact Factor: 0.92)<br> <br>
+                    
+                    
+                    93.	Deepali Virmani, Tanuj Singhal, Ghanshyam, Khyati Ahlawat and Noble, “Application Independent Energy Efficient Data Aggregation in Wireless Sensor Networks”, International Journal of Computer Science, March 2012,Vol 9,Issue 2 ,No 1, pp. 485-489, ISSN: - 1694-0814.(Impact Factor: 0.92)<br> <br>
+                    
+                    94.	Deepali Virmani and Satbir Jain, “Real Time Scheduling for wireless sensor networks”, International Journal of Hybrid Information Technology, January 2012, Vol. 5, No.1, 2012, pp. 61- 68, ISSN: 1738- 9968. (Grant from Korea Government, DBLP Indexed)<br> <br>
+                    
+                    
+                    95.	Deepali Virmani and Satbir Jain, “Decentralized Lifetime Maximizing Tree with Clustering for Data Delivery in Wireless Sensor Networks”, International Journal of Computer Science Issues, September 2011,Vol 8,Issue 5 ,No 1, pp. 310- 318, ISSN: - 1694-0814. (Impact Factor: 0.92)<br> <br>
+                    
+                    
+                    96.	Deepali Virmani and Satbir Jain, “Real Time Communication Capacity for Data Delivery inWireless Sensor Networks”, International Journal of Computer Science and Technology, July 2011,Vol 8,Issue 4<br> <br>
+                    ,No 1 , pp . 655-664, ISSN: 1694-0814..(Impact Factor: 1.2)
+                    
+                    
+                    97.	Deepali Virmani, Dhruv Talwar, Arun Dhingra and Tushar Bahl, “Priority Based Energy-Efficient Data Forwarding Algorithm in Wireless Sensor Networks”, International journal of Advances in ComputerNetworks and its Security, June 2011, pp. 157-160, ISSN: 1872-0786. (DBLP Indexed)<br> <br>
+                    
+                    
+                    98.	Deepali Virmani and Satbir Jain “Real Time scheduling with Virtual Nodes for Self Stabilization in Wireless Sensor Networks”, International Journal of Information Technology and Knowledge Management July-December 2011, Volume 4, No. 2, pp. 477-483 , ISSN: 0973- 4414. (Impactfactor 0.49) (DBLP Indexed)<br> <br>
+                    
+                    
+                    99.	Deepali Virmani and Satbir Jain “Reliable Robust and Real-Time Communication Protocol forData Delivery in Wireless sensor Networks” International Journal of Information Technology and Knowledge Management July-December 2011, Volume 4, No. 2, pp. 595-601, ISSN: 0973-4414. (Impact factor 0.49) (DBLP Indexed)<br> <br>
+                    
+                    100.	Deepali Virmani, Dhruv Talwar, Arun Dhingra, Tushar Bahl “Energy-Efficient Data Forwarding Algorithm in Wireless Sensor Networks”, International journal of Advacnes in Computer Networksand its Security, October 2011, pp 115-120.<br> <br>
+            
+                    101.	Deepali Virmani and Satbir Jain “Performance analysis of lifetime maximizing trees for data aggregation in wireless sensor networks” International Journal on Computer Science and Engineering, Volume .3 No.1 Jan 2011, pp 276-285, ISSN: 0975-3397.(DOAJ Indexed)<br> <br>
+                    
+                    102.	D. Virmani and S.Jain “Stable Routing for achieving Quality of Service in Wireless Sensor Networks” International Journal of Computer Application special issue on Mobile Ad-hoc Networks, 2010, DOI 10.512/1010-47, pp 30-34, ISSN: 978-93-80746-69-2. (DBLP Indexed)<br> <br>
+                    
+                    103.	Deepali Virmani and Satbir Jain, “Construction Of Centralized Lifetime Maximizing Tree for Data Aggregation in Wireless Sensor Networks”, International Journal of Computer and Electrical Engineering (IJCEE), Dec 2009, pp 529-534, ISSN: 1793-8163.<br> <br>
+                    
+                    
+                    104.	Deepali Virmani and Satbir Jain, “Construction Of Decentralized Lifetime Maximizing Tree for Data Aggregation in Wireless Sensor Networks” , World Academy of Science Engineering and Technology, volume 52, 2009, ISSN: 2070- 3740 , Rome, April 2009, PP. 54-63<br> <br>
+                    
+                    105.	Deepali Virmani and Satbir Jain, “Comparison between Various Application Independent Data Aggregation Techniques in Sensor Networks”, International Journal of Computer Science and Network Security, Volume .8 No 7, July 2008, PP 247-254, ISSN: 1738-7906.<br> <br>
+                    
+                    106.	Deepali virmani , Savneet Kaur and Satbir Jain, “A Novel Framework for Intelligent Retrieval in Wireless Sensor Netwoks”, Elsevier ERCICA 2104, PP. 1-5.<br> <br>
+                    
+                    107.	Deepali virmani and Satbir Jain, “An Efficient Hybrid Localization Technique in Wireless Sensor Networks”, IEEE Explore DOI 80.21.13/ ICRDPET 2013.4809182, 2013, PP. 1179 -1186.<br> <br>
+                    
+                    108.	Deepali Virmani, Nikhil Batra and Ankita Soni, “Detection of Malicious nodes using Selective Repeat Automatic Repeat Request protocol for Wireless Sensor Networks”, Third International Conference on Computational Intelligence and Information Technology – CIIT 2013, pp 62-67, Elsevier Digital Library .Deepali Virmani, Nikhil Batra and Ankita Soni, “Dynamic Clustering to Detect Malicious Nodes in Wireless Sensor Network”, Int. Conf. on Advances in Computer Science, AETACS,2013 , pp 505 -513, Elsevier Digital Library.<br> <br>
+                    
+                    109.	Deepali virmani and Satbir Jain, “Time Dependent Data Aggregation Tree for DataGathering in Wireless Sensor Network”, Springer Digital Library 10.1645/1967378.1858424/2012, pp 78- 84.<br> <br>
+                    110.	Deepali virmani and Satbir Jain, “Dynamic Clustering for Data Delivery in WirelessSensor Networks”,	ACM	Digital	Library
+                    26.1932/18678098.18768324/2011, pp 11-18.<br> <br>
+                    
+                    111.	Deepali virmani and Satbir Jain, “Fault Tolerant Optimal Path for Data Delivery in Wireless Sensor Networks”, ACM Digital Library 10.1145/1858378.1858424/2010, pp 35-41.<br> <br>
+                    112.	Deepali Virmani and Satbir jain , “Robust and Real Time Data Delivery in Wireless Sensor Networks”, LNCS Springer’s, Book series CCIS, DOI 10.1007/978_3-642-15766- 9_19/2010 , ISSN -1865-0937, pp 129-135.<br> <br>
+                    
+                    113.	Deepali Virmani and Satbir jain, “Virtual nodes for self-stabilization in wireless sensor networks”, LNCS Springer’s, Book series CCIS, DOI 10.1007/978_3-642- 15766- 0_57/2010, ISSN -1865-0937, pp 371-375.<br> <br>
+                    
+                    114.	Deepali Virmani and Satbir Jain, “Quality of Service On-Demand Power Aware Routing Algorithm for Wireless Sensor Networks”, LNCS Springer’s, Book series CCIS, DOI 10.1007/978_3-642-12214-9-46/2010, ISSN -1865-0937, pp 281-289.<br> <br>
+                    
+                    115.	Deepali Virmani and Satbir Jain, “Comparison of Proposed Data Dissemination Protocols for Sensor Networks Using J-Sim”, IEEE Explore DOI 10.1109/IADCC.2009.4809182, 2009, PP. 1179 -1186.<br> <br>
+                    
+                    116.	Deepali Virmani and Satbir Jain, “Proposal of “Scalable, Robust and Real Time Communication” Architecture for Sensor Networks”, ICETAETS, Jan 2008, PP 2031- 2036.
+                  National Journal<br> <br>
+                 
+                    117.	Deepali Virmani and Satbir Jain, “Node energy Constraint Comparison Of DSR & DSDV routing Protocols Of ADHOC networks “, GPM Journal of Technology & Management, Vol.1, No. 1, 2007, PP 7-12.<br> <br>
+                </p>
+                </div>   
+            </div>
+          </div>
+
+            
+                
+            
+
+            
+
+          <!--CONTACT-->
+          <div id="contact" class="w3-container w3-margin-top-20-percent w3-cursive">
+            <h2 class="w3-border-bottom w3-border-amber" style="border-width: 3px !important;">MY CONTACT DETAILS</h3>
+            <div class="w3-margin-top-2" style="font-weight: 500;">
+              <p>Name: Prof (Dr). Deepali Virmani </p>
+              <p> Contact Number: 9871947800</p>
+              <p>E-mail: deepalivirmani@gmail.com</p>
+            </div>
+          </div>
+
+        
+
+        <!--END OF CV SECTION-->
+      </section>      
+    </section>
+    <script>
+      // Function to toggle mobile navigation
+      function toggleNavigation() {
+        let nav = document.getElementById("mobile-nav");
+        if (nav.classList.contains('w3-show')) {
+          nav.classList.remove('w3-show');
+        } else { 
+          nav.classList.add('w3-show');
+        }
+      }
+    </script>
+    <script>
+      // Script to load feather icons
+      feather.replace()
+    </script>
+   <script>
+    // Get the button
+    let mybutton = document.getElementById("myBtn");
+    
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    }
+    </script>
+  </body>
+</html>
